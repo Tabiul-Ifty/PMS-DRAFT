@@ -14,70 +14,26 @@
 </head>
 
 <body>
-    <!-- <div id="nav-container"> -->
-        <!-- <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/1-corvette-stingray-c8-2019-fd-hr-hero-front_0.jpg?itok=SEYe_vLy" alt="none"/>
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <h6 class="nav-text"><span>Name</span>
-                </h6>
-            </li>
-            <li class="nav-item">
-                <h6 class="nav-text"><span>Name</span></h6>
-            </li>
-            <li class="nav-item">
-                <h6 class="nav-text"><span>Name</span></h6>
-            </li>
-        </ul> -->
-<!-- 
-        <div class="card mb-3" id="nav-container">
-            <div class="row ">
-                <div class="col-md-2">
-                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/1-corvette-stingray-c8-2019-fd-hr-hero-front_0.jpg?itok=SEYe_vLy" alt="...">
-                </div>
-                <div class="col-md-10">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <h6 class="nav-text"><span>Name</span>
-                            </h6>
-                        </li>
-                        <li class="nav-item">
-                            <h6 class="nav-text"><span>Name</span></h6>
-                        </li>
-                        <li class="nav-item">
-                            <h6 class="nav-text"><span>Name</span></h6>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <main>
         <section id="loginContainer" class="d-flex justify-content-end">
             <div class="login-form">
                 <h3 class="login-heading">Login</h3>
                 <form action="" class="form-contrl">
-                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                    <input class="form-control form-control" type="text" placeholder=".form-control-sm"
+                    <label for="staticEmail" class="col-sm-2 col-form-label">User Id</label>
+                    <input id = "userId" class="form-control form-control" type="text" placeholder=""
                         aria-label=".form-control-sm example">
                 </form>
                 <form action="" class="form-contrl">
-                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                    <input type="password" class="form-control" id="inputPassword">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Password</label>
+                    <input id = "userPassword" type="password" class="form-control" id="inputPassword">
                 </form>
 
-                <button type="button" class="btn btn-primary btn-color login-button">Login</button>
+                <button id="loginBtn" type="button" class="btn btn-primary btn-color login-button">Login</button>
                 <br>
                 <a id="forgotPassword" href="">Forgot your password?</a>
             </div>
         </section>
     </main>
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
